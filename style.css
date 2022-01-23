@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    background-color: rgb(248, 229, 206);
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+/* header section start*/
+.profile-pic{
+    height: 100px;
+    width: 120px;
+    border: 3px solid black;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+
+.header-contact a{
+    color: teal;
+    text-decoration: none;
+    font-weight: bold;
+}
+.header-contact a:hover{
+    color: rgb(243, 106, 14);
+    text-decoration: underline;
+    font-weight: bold;
+}
+/* common class*/
+
+h1,h2,h3,h4,h5,h6{
+    color:rgb(93, 13, 102);
+}
+.clear{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 100%;
+}
+.content{
+    margin-bottom: 30px;
+}
+.left-div{
+    float: left;
+    width: 30%;
+}
+.right-div{
+    float: right;
+    width: 70%;
+}
+.common-hr{
+    border: 1px solid black;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 100%;
+}
+
+.right-div-left{
+    float: left;
+    width: 45%;
+}
+.right-div-right{
+    float: left;
+    width: 45%;
+}
+/* footer section start*/
+.bottom-container{
+    background-color: black;
+    text-align: center;
+   padding: 15px;
+}
+.bottom-container a{
+     color: aliceblue ;
+    text-decoration: none;
+    margin: 20px;
+}
+.bottom-container a:hover{
+    color: red ;
+   text-decoration: underline;
+   margin: 20px;
+}
+.bottom-container p{
+    color: aliceblue ;
+   text-decoration: none;
+   margin-top: 20px;
+}
